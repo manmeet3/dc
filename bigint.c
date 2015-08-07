@@ -152,7 +152,7 @@ bigint *add_bigint (bigint *this, bigint *that) {
 			ans = do_sub(tmp,tmp2);
 			ans->negative = tmp->negative;
 
-		/* OBSOLETE CODE FROM LAST ATTEMPT*********
+		/* PREV ATTEMPT*********
 		 * printf("%i _ big",(this->size > that->size ? this:that));
 		printf("%i _ sm",(this->size < that->size ? this:that));
 
